@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Kwame Nkrumah Mausoleum",
+      "address": "High Street, Accra, Ghana",
+      "description": "A memorial park dedicated to Ghana's first President, Kwame Nkrumah.",
+      "image": "images/kwame-mausoleum.webp"
+    },
+    {
+      "name": "Makola Market",
+      "address": "Kojo Thompson Rd, Accra, Ghana",
+      "description": "A bustling market where locals buy and sell everything from clothes to food.",
+      "image": "images/makola-market.webp"
+    },
+    {
+      "name": "Independence Arch",
+      "address": "Independence Avenue, Accra, Ghana",
+      "description": "A symbol of Ghana’s independence, located at Black Star Square.",
+      "image": "images/independence-arch.webp"
+    },
+    {
+      "name": "Jamestown Lighthouse",
+      "address": "Jamestown, Accra, Ghana",
+      "description": "A colonial-era lighthouse with panoramic views of the city and coast.",
+      "image": "images/jamestown-lighthouse.webp"
+    },
+    {
+      "name": "Osu Castle",
+      "address": "Castle Drive, Osu, Accra, Ghana",
+      "description": "A historical castle formerly used during colonial rule and as a seat of government.",
+      "image": "images/osu-castle.webp"
+    },
+    {
+      "name": "W.E.B. DuBois Center",
+      "address": "1 Circular Road, Cantonments, Accra, Ghana",
+      "description": "Museum and mausoleum of African-American scholar and civil rights activist W.E.B. DuBois.",
+      "image": "images/dubois-center.webp"
+    },
+    {
+      "name": "Labadi Beach",
+      "address": "La Rd, Accra, Ghana",
+      "description": "Popular beach destination for both locals and tourists with music and food.",
+      "image": "images/labadi-beach.webp"
+    },
+    {
+      "name": "Aburi Botanical Gardens",
+      "address": "Aburi, Eastern Region, Ghana",
+      "description": "A beautiful garden with exotic plants and a peaceful environment.",
+      "image": "images/aburi-gardens.webp"
+    }
+  ]

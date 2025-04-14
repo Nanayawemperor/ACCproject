@@ -1,0 +1,200 @@
+:root {
+    --primary: #003049;
+    --accent: #f77f00;
+    --bg: #fdf0d5;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg);
+    color: #000;
+  }
+  
+  header {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logo {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+  }
+  
+  .hero {
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .cta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .events, .spotlight {
+    flex: 1 1 300px;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .members-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .member {
+    text-align: center;
+    max-width: 200px;
+  }
+  .member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #003049;
+    color: #fdf0d5;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .footer-contact, .footer-social {
+    text-align: left;
+  }
+  
+  .footer-contact h3,
+  .footer-social h3 {
+    color: #f77f00;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-social a {
+    display: block;
+    color: #fdf0d5;
+    text-decoration: none;
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .footer-social a:hover {
+    text-decoration: underline;
+    color: #f77f00;
+  }
+  
+  .footer-copy {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #ccc;
+  }
+  
+  /* Responsive */
+  @media (min-width: 600px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header, footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .cta {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  .main-layout {
+    display: grid;
+    grid-template-areas:
+      "logo nav"
+      "hero hero"
+      "cta cta"
+      "events spotlight"
+      "weather contact social";
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .logo       { grid-area: logo; }
+  .nav        { grid-area: nav; }
+  .hero       { grid-area: hero; }
+  .cta        { grid-area: cta; }
+  .events     { grid-area: events; }
+  .spotlight  { grid-area: spotlight; }
+  .weather    { grid-area: weather; }
+  .contact    { grid-area: contact; }
+  .social     { grid-area: social; }
+
+  @media (max-width: 640px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  nav a.active {
+    border-bottom: 2px solid #f77f00;
+  }
+  
+  

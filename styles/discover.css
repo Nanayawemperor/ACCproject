@@ -1,0 +1,160 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fdf0d5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, footer {
+    background-color: #003049;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #f77f00;
+  }
+  
+  .main-layout {
+    display: grid;
+    grid-template-areas:
+      "visit-message visit-message"
+      "gallery gallery";
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .visit-message {
+    grid-area: visit-message;
+    background: #f77f00;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .gallery {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card figure {
+    margin: 0 0 0.5rem;
+  }
+  
+  .card address, .card p {
+    margin: 0.25rem 0;
+  }
+  
+  .card button {
+    background: #f77f00;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #003049;
+    color: #fdf0d5;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .footer-contact, .footer-social {
+    text-align: left;
+  }
+  
+  .footer-contact h3,
+  .footer-social h3 {
+    color: #f77f00;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-social a {
+    display: block;
+    color: #fdf0d5;
+    text-decoration: none;
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .footer-social a:hover {
+    text-decoration: underline;
+    color: #f77f00;
+  }
+  
+  .footer-copy {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #ccc;
+  }
+  
+  /* Responsive */
+  @media (min-width: 600px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .main-layout {
+      grid-template-areas:
+        "visit-message"
+        "gallery";
+      grid-template-columns: 1fr;
+    }
+  
+    .card:hover {
+      transform: none;
+    }
+  }
+  

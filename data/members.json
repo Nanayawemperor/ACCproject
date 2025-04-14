@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Kofi's Coffee Co.",
+      "address": "123 Brew Lane, Accra",
+      "phone": "+233 20 123 4567",
+      "website": "https://kofiscoffee.com",
+      "logo": "images/kofi.png"
+    },
+    {
+      "name": "Accra Tech Solutions",
+      "address": "45 Silicon Ave, Accra",
+      "phone": "+233 55 987 6543",
+      "website": "https://accratech.com",
+      "logo": "images/tech.webp"
+    },
+    {
+      "name": "Golden Prints Studio",
+      "address": "88 Market Street, Accra",
+      "phone": "+233 24 456 7890",
+      "website": "https://goldenprints.com",
+      "logo": "images/golden.png"
+    },
+    {
+      "name": "Healthy Harvest Market",
+      "address": "12 Greenway, Accra",
+      "phone": "+233 26 234 5678",
+      "website": "https://healthyharvest.com",
+      "logo": "images/healthy.png"
+    },
+    {
+      "name": "Sunset Tours Ghana",
+      "address": "78 Horizon Blvd, Accra",
+      "phone": "+233 50 765 4321",
+      "website": "https://sunsettoursgh.com",
+      "logo": "images/sunset.png"
+    },
+    {
+      "name": "Bright Future Academy",
+      "address": "31 Edu Lane, Accra",
+      "phone": "+233 30 987 3210",
+      "website": "https://brightfuture.edu.gh",
+      "logo": "images/bright.png"
+    }
+  ]
+  

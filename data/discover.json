@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Kwame Nkrumah Mausoleum",
+      "address": "High St, Accra",
+      "description": "A memorial park honoring Ghana’s first president.",
+      "image": "images/kwameNkrumah.png"
+    },
+    {
+      "name": "Makola Market",
+      "address": "Kojo Thompson Rd, Accra",
+      "description": "Vibrant market with food, fabric, and local crafts.",
+      "image": "images/makola.png"
+    },
+    {
+      "name": "Labadi Beach",
+      "address": "La Rd, Accra",
+      "description": "Popular beach for both locals and tourists.",
+      "image": "images/labadi.png"
+    },
+    {
+      "name": "Independence Arch",
+      "address": "Black Star Square, Accra",
+      "description": "Iconic monument of Ghana’s independence.",
+      "image": "images/independence.png"
+    },
+    {
+      "name": "W.E.B. DuBois Center",
+      "address": "Cantonments, Accra",
+      "description": "Museum and mausoleum of the Pan-Africanist.",
+      "image": "images/web.png"
+    },
+    {
+      "name": "Jamestown Lighthouse",
+      "address": "James Town, Accra",
+      "description": "Historic lighthouse and fishing community.",
+      "image": "images/lighthouse.png"
+    },
+    {
+      "name": "Accra Mall",
+      "address": "Spintex Rd, Accra",
+      "description": "Modern shopping center in the city.",
+      "image": "images/mall.png"
+    },
+    {
+      "name": "Legon Botanical Gardens",
+      "address": "University of Ghana, Accra",
+      "description": "Nature trails, lakes, and outdoor fun.",
+      "image": "images/legon.png"
+    }
+  ]
+  
