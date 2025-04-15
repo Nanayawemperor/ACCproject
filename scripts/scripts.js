@@ -21,12 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
     .then(response => response.json())
     .then(data => {
-        const weather = document.querySelector('.widget');
+      const weather = document.querySelector('.widget');
+      if (weather) {
         weather.innerHTML = `
-        <strong>${data.name} Weather:</strong> ${data.main.temp}°C, ${data.weather[0].description}
+          <strong>${data.name} Weather:</strong> ${data.main.temp}°C, ${data.weather[0].description}
         `;
+      }
     });
-
     const sidebar = document.querySelector(".visit-message"); // Create a div with this class in HTML
 const msPerDay = 1000 * 60 * 60 * 24;
 const today = Date.now();
@@ -47,7 +48,5 @@ if (!lastVisit) {
   }
 }
 
-sidebar.textContent = message;
-localStorage.setItem("lastVisit", today);
 
   
